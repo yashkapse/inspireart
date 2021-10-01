@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+
+}
+body{
+	background-color:#507689;
+}
+.nav{
+	background-color: #2b5468 ;
+	/*height: 100px;*/
+}
+.login{
+	border:1px solid black;
+	background-color:#fd79a8;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 8px 10px;
+	transition:all 0.2s linear;
+}
+.login a{
+	text-decoration: none;
+	color:white;
+	padding:25px;
+}
+.login:hover{
+	background-color: transparent;
+	border:1px solid #fd79a8;
+	color:black;
+}
+.info-box{
+	width: 40%;
+	border:1px solid black;
+	margin: 20px auto;
+	background-color: #FFf;
+	border-radius: 10px;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+}
+.box-head{
+	padding-top: 10px;
+}
+.box-head h1{
+	padding-top: 10px;
+
+	font-family: 'Chela One', cursive;
+
+}
+.box-content input{
+	display: block;
+	width: 70%;
+	margin: 0 auto 20px auto;
+	padding:5px 15px;
+	border-radius: 5px;
+	border:1px solid #fd79a8;
+	font-family: fontawesome;
+	outline: none;
+}
+
+
+
+.box-content select{
+	display: block;
+	width: 70%;	
+	margin: 0 auto 10px auto;
+	padding:5px 15px;
+	border-radius: 5px;
+	border:1px solid #fd79a8;
+	outline: none;
+}
+.box-content{
+	padding: 30px;
+}
+.or{
+	text-align: center;
+	width:70%;
+	margin: auto;
+	position: relative;
+	padding: 5px;
+}
+.or:before{
+	content:"";
+	position:absolute;
+	top:50%;
+	left:0;
+	width: 42%;
+	height: 2px;
+	background-color: black;	
+}
+.or:after{
+	content:"";
+	position:absolute;
+	top:50%;
+	right:0;
+	width: 42%;
+	height: 2px;
+	background-color: black;	
+}
+.icons a{
+	display: block;
+	width: 70%;
+	margin:auto;
+	text-align: center;
+	border:2px solid black;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+.box-content input[type="submit"]{
+	background-color:  #fd79a8;
+}
+
+#fb{
+	font-size:1.1rem;
+	padding:8px 12px;
+	border-radius: 2px;
+	background-color: #4267b2;
+	color:white;
+	box-shadow: inset 0px 3px 0 0 #4d73bf;
+	text-shadow: 0 2px 0 #3359a5;
+	cursor:pointer;
+	font-weight: bolder;
+	border:1px solid #4267b2;
+}
+#fb:hover{
+	background-color: #2b54a7;
+
+}
+#fb:active{
+	background-color: #1d4698;
+	border:1px solid #2b54a7;
+}
+
+#google{
+	font-size: 1.1rem;
+	padding:8px 12px;
+	border-radius: 2px;
+	background-color: #fff;
+	cursor:pointer;
+	border:1px solid #4267b2;
+}
+
+
+
+#google ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+#google ul li{
+	display: inline-block;
+	font-weight: bolder;
+}
+.submit input{
+	padding:8px 12px;
+	color:white;
+	font-weight: bolder;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin-bottom: 5px;
+	margin-top: 20px;
+	transition:all 0.2s linear;
+	border-radius: 5px;	
+}
+.submit input:hover{
+	background-color: transparent;
+	color:black;
+
+}

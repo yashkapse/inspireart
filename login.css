@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+
+}
+body{
+	background-color:#507689;
+}
+
+.nav{
+	background-color: #2b5468 ;
+}
+
+.join{
+	border:1px solid black;
+	background-color: #fd79a8;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 8px 10px;
+	transition:all 0.2s linear;
+	font-weight: bolder;
+}
+.join a{
+	text-decoration: none;
+	color:white;
+	padding:25px;
+
+}
+.join:hover{
+	background-color: transparent;
+	border:1px solid #fd79a8;
+	color:black;
+}
+.info-box{
+	width: 40%;
+	border:1px solid black;
+	margin: 60px auto;
+	background-color: #FFf;
+	padding: 20px;
+	border-radius: 10px;
+}
+.logo{
+	width: 100px;
+	height: 100px;
+}
+.box-head{
+	padding-top: 10px;
+	margin-bottom: 40px;
+}
+.box-head h1{
+	padding-top: 10px;
+	
+	font-family: 'Chela One', cursive;
+
+}
+.box-content input{
+	display: block;
+	width: 70%;
+	margin: 0 auto 30px auto;
+	padding:10px 15px;
+	border-radius: 5px;
+	border:1px solid #fd79a8;
+	font-family: fontawesome;
+	outline: none;
+	font-size: 1.2rem;
+}
+
+.submit input{
+	padding:8px 12px;
+	color:white;
+	font-weight: bolder;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	transition:all 0.2s linear;
+	border-radius: 5px;	
+}
+.box-content input[type="submit"]{
+	background-color:  #fd79a8;
+}
+.submit input:hover{
+	background-color: transparent;
+	color:black;
+}
+.box-content .recovery-password a{
+	display: block;
+	width: 70%;
+	margin: 0 auto 30px auto;
+	padding:10px 15px;
+	text-decoration: underline;
+	color:#fd79a8;
+	outline: none;
+	border: none;
+	background-color: transparent;
+}
+@media(min-width: 500px)
+{
+	.join{
+		color: aqua;
+	}
+}

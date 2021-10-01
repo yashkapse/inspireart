@@ -1,0 +1,11 @@
+.nav-btn
+{
+    border: 1.5px solid #fd79a8;
+    color:#fd79a8;
+    transition: all 0.2s linear;
+}
+.nav-btn:hover
+{
+    background-color: #fd79a8;
+    border: 1.5px solid #fd79a8;
+}
